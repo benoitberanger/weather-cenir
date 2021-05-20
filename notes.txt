@@ -1,0 +1,4 @@
+pip3 install adafruit-circuitpython-sht31d
+pip3 install adafruit-circuitpython-dht
+pip3 install adafruit-circuitpython-bme680
+pip3 install adafruit-circuitpython-ads1x15
