@@ -6,7 +6,7 @@ from busio import I2C
 import adafruit_bme680
 
 # Create library object using our Bus I2C port
-i2c = I2C(board.SCL, board.SDA)
+i2c = I2C(board.SCL, board.SDA, frequency=100000)
 bme680 = adafruit_bme680.Adafruit_BME680_I2C(i2c, debug=False)
 
 # change this to match the location's pressure (hPa), at sea leavel
